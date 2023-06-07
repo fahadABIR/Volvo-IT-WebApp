@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #c4c2c2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 105px;
+    margin-right: 0px;
+}
+
+header h1 {
+    margin: 10px;
+    font-family:"Times New Roman", Times, serif;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #051b2f;
+    
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #575757;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    font-size: 14px;
+ }
+ 
+
+
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 300px;
+    padding: 8px;
+    border: 2px solid #575757;
+    border-radius: 5px;
+}
+
+textarea.form-input {
+    height: 100px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #051b2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #575757;
+}
+
+#data-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#data-table th,
+#data-table td {
+    border: 1px solid #051b2f;
+    padding: 8px;
+    border-radius: 2px;
+    
+}
+
+#data-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #051b2f;
+    color: white;
+    
+    
+}
